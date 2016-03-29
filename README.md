@@ -5,7 +5,7 @@ Much progressive work in recommender engine research has been focused on applyin
 
 ### DESCRIPTION
 
-We all have patterns in our preferences. If you tend to watch a lot of cerebral documentaries, there's a fair chance you're not into stoner comedies. Fans of 80s slasher horror cinema don't always dig musicals. Animated super hero flicks may not necessarily jive with people into apocalyptic science-fiction. If religious movies are your passion, you're probably not a purveyor of hardcore porn. If you frequent sports dramas, you might not be a legal trial film buff. You get the idea. But there are some golden opportunities that may be missed because of this overall bias on principle.
+We all have patterns in our preferences. If you tend to watch a lot of cerebral documentaries, there's a fair chance you're not into stoner comedies. Fans of 80s slasher horror cinema don't always dig musicals. Animated super hero flicks may not necessarily jive with people into apocalyptic science-fiction. If religious movies are your passion, you're probably not a purveyor of hardcore porn. If you frequent sports dramas, you might not be a legal trial film buff. Nature film aficionados might not dig political satire. Spaghetti westerns can clash with coming of age films. You get the idea. But there are some golden opportunities that may be missed because of this overall bias on principle.
 
 We all very happily slip into patterns and can get trapped in our corners. This isn't an attempt to broaden your horizon or extend your coverage, merely to provide a conduit to neat to content you'd likely see as interesting but normally never find.
 
@@ -25,7 +25,8 @@ This project uses the free datasets from [MovieLens](http://grouplens.org/datase
 Computing such recommendations requires certain proven techniques.
 
 - A hybrid of [content-based filtering](http://recommender-systems.org/content-based-filtering/) and [item-item collaborative filtering](https://en.wikipedia.org/wiki/Item-item_collaborative_filtering)
-- [Latent Dirichlet Allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) and [latent factor modeling](http://www.ideal.ece.utexas.edu/seminar/LatentFactorModels.pdf) to identify the hidden relations between the user's selections and items in the library
+- [Latent Dirichlet Allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) and [latent factor model](http://www.ideal.ece.utexas.edu/seminar/LatentFactorModels.pdf) to identify the hidden relations and topic modeling between the user's selections and items in the library
+- [Matrix factorization](http://citeseer.ist.psu.edu/viewdoc/download;jsessionid=C1BF20DB4C9D871C8ADD24ED2875FE67?doi=10.1.1.147.8295&rep=rep1&type=pdf)  for dimensionality reduction using [singular value decomposition](http://www.cs.carleton.edu/cs_comps/0607/recommend/recommender/svd.html), inspired greatly by [the Funk approach](http://sifter.org/~simon/journal/20061211.html)
 
 
 ### CHALLENGES
