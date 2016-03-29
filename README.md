@@ -32,3 +32,7 @@ Computing such recommendations requires certain proven techniques.
 ### CHALLENGES
 
 The difficult thing herein is the lack of a concrete **explanation** of the recommendations, which is [typically a key component](https://pdfs.semanticscholar.org/4adc/c5d7429adcea3b365a223fac2441880cab28.pdf) in the overall user interface of an effective recommender system. Because the latent factors aren't easily discernible for humans, if at all, being low-level mathematics relations, it's complicated to relay to the end user why a certain movie was suggested. This should require a new way to reinforce the ranking, as items don't intuitively pass the eyetest for why they're being recommended.
+
+---
+
+This builds on my R&D work within recommender systems within the scope of allowing for **diversity**, **novelty** and **serendipity** within suggestion lists. 
